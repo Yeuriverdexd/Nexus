@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-dark: #0e0352;
+  --primary-light: #0400ff;
+}
+
+.gradient-bg {
+  background: linear-gradient(to right, var(--primary-dark), var(--primary-light));
+}
+
+.gradient-text {
+  background: linear-gradient(to right, var(--primary-dark), var(--primary-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hover-rise {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-rise:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 25px -5px rgba(4, 0, 255, 0.2);
+}
+
+.service-card {
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(4, 0, 255, 0.2);
+  border-color: var(--primary-light);
+}
+
+.login-form {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--primary-light) !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--primary-light) !important;
+}
