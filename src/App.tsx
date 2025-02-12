@@ -253,39 +253,39 @@ function App() {
             <SwiperSlide>
               <div className="bg-white rounded-lg overflow-hidden shadow-lg hover-rise">
                 <img
-                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f"
+                  src="img/5.png"
                   alt="Project 1"
-                  className="w-full h-48 object-cover"
+                  className="w-full h-47 object-cover"
                 />
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-2">E-commerce Platform</h3>
-                  <p className="text-gray-600">Plataforma de comercio electrónico moderna y escalable</p>
+                  <h3 className="text-xl font-semibold mb-2">Parking App</h3>
+                  <p className="text-gray-600">Plataforma de parqueo moderna y escalable</p>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="bg-white rounded-lg overflow-hidden shadow-lg hover-rise">
                 <img
-                  src="https://images.unsplash.com/photo-1556155092-490a1ba16284"
+                  src="img/6.png"
                   alt="Project 2"
-                  className="w-full h-48 object-cover"
+                  className="w-full h-47 object-cover"
                 />
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-2">Fitness App</h3>
-                  <p className="text-gray-600">Aplicación móvil para seguimiento de ejercicios</p>
+                  <h3 className="text-xl font-semibold mb-2">Green Planer</h3>
+                  <p className="text-gray-600">Aplicación móvil para seguimiento de actividades ecologicas</p>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="bg-white rounded-lg overflow-hidden shadow-lg hover-rise">
                 <img
-                  src="https://images.unsplash.com/photo-1551288049-bebda4e38f71"
+                  src="img/e.png"
                   alt="Project 3"
-                  className="w-full h-48 object-cover"
+                  className="w-full h-47 object-cover"
                 />
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-2">CRM System</h3>
-                  <p className="text-gray-600">Sistema de gestión de relaciones con clientes</p>
+                  <h3 className="text-xl font-semibold mb-2">Snack App</h3>
+                  <p className="text-gray-600">Cafeteria Virtual</p>
                 </div>
               </div>
             </SwiperSlide>
@@ -322,13 +322,10 @@ function App() {
                 </div>
               </div>
               <div className="mt-8">
-                <h3 className="text-xl font-semibold mb-4">Logo Animado</h3>
-                <div className="aspect-video bg-black/20 rounded-lg">
-                  {/* Aquí se puede insertar el video del logo animado */}
-                  <div className="w-full h-full flex items-center justify-center">
-                    <span className="text-white/50">Video del Logo</span>
-                  </div>
-                </div>
+                <video autoPlay muted loop className="w-[360px] h-[350px] rounded-lg" controls>
+                <source src="videos/Nexus.mp4" type="video/mp4" />
+                  Tu navegador no soporta el elemento de video.
+                </video>
               </div>
             </div>
             <div>

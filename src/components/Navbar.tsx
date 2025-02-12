@@ -23,8 +23,7 @@ const Navbar: React.FC<NavbarProps> = ({ onLoginClick }) => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <Code className="h-8 w-8 text-white" />
-            <span className="ml-2 text-xl font-bold text-white">TechVision</span>
+            <img src="img/FunFest.png" className="h-18 w-40" alt="LogoImg" />
           </div>
 
           {/* Desktop Menu */}
