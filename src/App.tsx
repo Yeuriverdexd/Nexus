@@ -367,7 +367,7 @@ function App() {
       <footer className="bg-gray-900 text-white py-8">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center">
-            <p>&copy; 2024 TechVision Solutions. Todos los derechos reservados.</p>
+            <p>&copy; Nexus Dominicana. Todos los derechos reservados.</p>
           </div>
         </div>
       </footer>
